@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XED1PSJ68X"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -47,6 +47,9 @@
             color: white;
             padding: 20px;
         }
+  .menu{
+            display: flex;
+        }
         #menu li{
             list-style-type: none;
             margin: 5px 10px;
@@ -68,6 +71,12 @@
             text-decoration: none;
             color: white;
         }
+
+ @media screen and (max-width: 800px) {
+        .menu{
+            display: none;
+        }
+    }
         
     </style>
 </head>
@@ -76,8 +85,8 @@
         <div>
             <p class="" style="font-size: 1.5rem;">Installturbotax.com</p>
         </div>
-        <div class="menu">
-            <ul class="d-flex ">
+        <div>
+            <ul class="menu">
                 <li><a href="https://install-turbotaxcom.github.io/" class="active">Home</a></li>
                 <li><a href="https://install-turbotaxcom.github.io/">Privacy Policy</a></li>
                 <li><a href="https://install-turbotaxcom.github.io/" >Disclaimer</a></li>
@@ -167,6 +176,7 @@
             </div>
             <div class="col-md-1"></div>
         </div>
+
 
     </div>
     <footer class="text-center">
